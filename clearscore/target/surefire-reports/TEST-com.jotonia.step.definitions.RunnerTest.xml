@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.jotonia.step.definitions.RunnerTest" time="0.041" tests="20" errors="4" skipped="10" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\bin"/>
+    <property name="java.vm.version" value="25.181-b13"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Jotonia\Downloads\clearscore\clearscore"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Jotonia\Downloads\clearscore\clearscore"/>
+    <property name="java.runtime.version" value="1.8.0_181-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Jotonia\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\Jotonia\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf2101289585850865828.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_181\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_191/bin/server;C:/Program Files/Java/jre1.8.0_191/bin;C:/Program Files/Java/jre1.8.0_191/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\Git\cmd;C:\Users\Jotonia\AppData\Local\Microsoft\WindowsApps;;C:\Users\Jotonia\Desktop;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\Jotonia"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Jotonia"/>
+    <property name="java.class.path" value="C:\Users\Jotonia\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_1.10.0.20181127-2120\jars\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_181\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B clean install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_181"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_181\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\Jotonia\Downloads\clearscore\clearscore\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="Given I am on the homepage" classname="Scenario: As a user, I want to be able verify and interract with the cookies notification" time="0.019">
+    <error type="java.lang.NullPointerException:"><![CDATA[java.lang.NullPointerException: null
+	at com.jotonia.step.definitions.HomePage_Cookies_Actions.<init>(HomePage_Cookies_Actions.java:20)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.picocontainer.injectors.AbstractInjector.newInstance(AbstractInjector.java:145)
+	at org.picocontainer.injectors.ConstructorInjector$1.run(ConstructorInjector.java:342)
+	at org.picocontainer.injectors.AbstractInjector$ThreadLocalCyclicDependencyGuard.observe(AbstractInjector.java:270)
+	at org.picocontainer.injectors.ConstructorInjector.getComponentInstance(ConstructorInjector.java:364)
+	at org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter.getComponentInstance(AbstractInjectionFactory.java:56)
+	at org.picocontainer.behaviors.AbstractBehavior.getComponentInstance(AbstractBehavior.java:64)
+	at org.picocontainer.behaviors.Stored.getComponentInstance(Stored.java:91)
+	at org.picocontainer.DefaultPicoContainer.getInstance(DefaultPicoContainer.java:699)
+	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:647)
+	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:678)
+	at cucumber.runtime.java.picocontainer.PicoFactory.getInstance(PicoFactory.java:40)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:100)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:283)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:173)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+	at ✽.Given I am on the homepage(module1/HomePage_Cookies_Actions.feature:5)
+]]></error>
+    <system-out><![CDATA[
+  @book1 @all
+  Scenario: User calls web service to get a book by its ISBN # rest_api_module/bookISBN.feature:4
+    Given a book exists with an isbn of 9781451648546        # Book.a_book_exists_with_isbn(String)
+    When a user retrieves the book by isbn                   # Book.a_user_retrieves_the_book_by_isbn()
+    Then the status code is 200                              # Book.verify_status_code(int)
+    And response includes the following                      # Book.response_equals(String,String>)
+    And response includes the following in any order         # Book.response_contains_in_any_order(String,String>)
+
+3 Scenarios (2 undefined, 1 passed)
+17 Steps (12 undefined, 5 passed)
+0m4.398s
+
+
+You can implement missing steps with the snippets below:
+
+@Given("^I am on the homepage$")
+public void i_am_on_the_homepage() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+@Given("^I verify the cookies notification is present$")
+public void i_verify_the_cookies_notification_is_present() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+@When("^I click the /No Problem/ button on the cookies notification bar in order to dismiss the notification$")
+public void i_click_the_No_Problem_button_on_the_cookies_notification_bar_in_order_to_dismiss_the_notification() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+@When("^I verify that the cookie notification bar doesnt reappear$")
+public void i_verify_that_the_cookie_notification_bar_doesnt_reappear() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+@Then("^I know that the appropriate cookies are set$")
+public void i_know_that_the_appropriate_cookies_are_set() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+@Given("^I click the savings calculator tab\\.$")
+public void i_click_the_savings_calculator_tab() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+@When("^I see the savings calculator is displayed and I select (\\d+) for my current score$")
+public void i_see_the_savings_calculator_is_displayed_and_I_select_for_my_current_score(int arg1) throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+@When("^I also select my score goal of (\\d+)$")
+public void i_also_select_my_score_goal_of(int arg1) throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+@When("^I verify that my current score interest rate, costs and cards available are: (\\d+)\\.(\\d+)%, £(\\d+) and (\\d+)$")
+public void i_verify_that_my_current_score_interest_rate_costs_and_cards_available_are_£_and(int arg1, int arg2, int arg3, int arg4) throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+@When("^I verify that my goal interest rate, costs and cards available are: (\\d+)%, £(\\d+) and (\\d+)$")
+public void i_verify_that_my_goal_interest_rate_costs_and_cards_available_are_£_and(int arg1, int arg2, int arg3) throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+@Then("^my potential savings display should be £(\\d+)$")
+public void my_potential_savings_display_should_be_£(int arg1) throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+Feature: Check and interract with cookie notification on ClearScore website
+]]></system-out>
+    <system-err><![CDATA[java.lang.IllegalStateException: The driver executable does not exist: C:\SeleniunTest\cucumber_Workspace\fieldglass\drivers\chromedriver.exe
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:199)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:121)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:116)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:296)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:142)
+	at com.jotonia.common.utils.WebDriverManager.initDriver(WebDriverManager.java:35)
+	at com.jotonia.common.utils.WebDriverManager.getDriver(WebDriverManager.java:22)
+	at com.jotonia.step.definitions.HomePage_Cookies_Actions.<init>(HomePage_Cookies_Actions.java:18)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.picocontainer.injectors.AbstractInjector.newInstance(AbstractInjector.java:145)
+	at org.picocontainer.injectors.ConstructorInjector$1.run(ConstructorInjector.java:342)
+	at org.picocontainer.injectors.AbstractInjector$ThreadLocalCyclicDependencyGuard.observe(AbstractInjector.java:270)
+	at org.picocontainer.injectors.ConstructorInjector.getComponentInstance(ConstructorInjector.java:364)
+	at org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter.getComponentInstance(AbstractInjectionFactory.java:56)
+	at org.picocontainer.behaviors.AbstractBehavior.getComponentInstance(AbstractBehavior.java:64)
+	at org.picocontainer.behaviors.Stored.getComponentInstance(Stored.java:91)
+	at org.picocontainer.DefaultPicoContainer.getInstance(DefaultPicoContainer.java:699)
+	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:647)
+	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:678)
+	at cucumber.runtime.java.picocontainer.PicoFactory.getInstance(PicoFactory.java:40)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:100)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:283)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:173)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]></system-err>
+  </testcase>
+  <testcase name="Scenario: As a user, I want to be able verify and interract with the cookies notification" classname="Scenario: As a user, I want to be able verify and interract with the cookies notification" time="0.019">
+    <error type="java.lang.NullPointerException:"><![CDATA[java.lang.NullPointerException: null
+	at com.jotonia.step.definitions.HomePage_Cookies_Actions.<init>(HomePage_Cookies_Actions.java:20)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.picocontainer.injectors.AbstractInjector.newInstance(AbstractInjector.java:145)
+	at org.picocontainer.injectors.ConstructorInjector$1.run(ConstructorInjector.java:342)
+	at org.picocontainer.injectors.AbstractInjector$ThreadLocalCyclicDependencyGuard.observe(AbstractInjector.java:270)
+	at org.picocontainer.injectors.ConstructorInjector.getComponentInstance(ConstructorInjector.java:364)
+	at org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter.getComponentInstance(AbstractInjectionFactory.java:56)
+	at org.picocontainer.behaviors.AbstractBehavior.getComponentInstance(AbstractBehavior.java:64)
+	at org.picocontainer.behaviors.Stored.getComponentInstance(Stored.java:91)
+	at org.picocontainer.DefaultPicoContainer.getInstance(DefaultPicoContainer.java:699)
+	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:647)
+	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:678)
+	at cucumber.runtime.java.picocontainer.PicoFactory.getInstance(PicoFactory.java:40)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:100)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:283)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:173)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+	at ✽.Given I am on the homepage(module1/HomePage_Cookies_Actions.feature:5)
+]]></error>
+  </testcase>
+  <testcase name="And I verify the cookies notification is present" classname="Scenario: As a user, I want to be able verify and interract with the cookies notification" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="When I click the /No Problem/ button on the cookies notification bar in order to dismiss the notification" classname="Scenario: As a user, I want to be able verify and interract with the cookies notification" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I verify that the cookie notification bar doesnt reappear" classname="Scenario: As a user, I want to be able verify and interract with the cookies notification" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then I know that the appropriate cookies are set" classname="Scenario: As a user, I want to be able verify and interract with the cookies notification" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given I am on the homepage" classname="Scenario: As a user, I want to be able to set scores and goal on the ClearScore savings calculator" time="0.001">
+    <error type="java.lang.NullPointerException:"><![CDATA[java.lang.NullPointerException: null
+	at com.jotonia.step.definitions.HomePage_Cookies_Actions.<init>(HomePage_Cookies_Actions.java:20)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.picocontainer.injectors.AbstractInjector.newInstance(AbstractInjector.java:145)
+	at org.picocontainer.injectors.ConstructorInjector$1.run(ConstructorInjector.java:342)
+	at org.picocontainer.injectors.AbstractInjector$ThreadLocalCyclicDependencyGuard.observe(AbstractInjector.java:270)
+	at org.picocontainer.injectors.ConstructorInjector.getComponentInstance(ConstructorInjector.java:364)
+	at org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter.getComponentInstance(AbstractInjectionFactory.java:56)
+	at org.picocontainer.behaviors.AbstractBehavior.getComponentInstance(AbstractBehavior.java:64)
+	at org.picocontainer.behaviors.Stored.getComponentInstance(Stored.java:91)
+	at org.picocontainer.DefaultPicoContainer.getInstance(DefaultPicoContainer.java:699)
+	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:647)
+	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:678)
+	at cucumber.runtime.java.picocontainer.PicoFactory.getInstance(PicoFactory.java:40)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:100)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:283)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:173)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+	at ✽.Given I am on the homepage(module1/SavingsCalculator.feature:5)
+]]></error>
+    <system-out><![CDATA[
+  @clearscore_cookies @all
+  Scenario: As a user, I want to be able verify and interract with the cookies notification                   # module1/HomePage_Cookies_Actions.feature:4
+    Given I am on the homepage                                                                                # HomePage_Cookies_Actions.i_am_on_the_homepage()
+      java.lang.NullPointerException
+      	at com.jotonia.step.definitions.HomePage_Cookies_Actions.<init>(HomePage_Cookies_Actions.java:20)
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+      	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+      	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+      	at org.picocontainer.injectors.AbstractInjector.newInstance(AbstractInjector.java:145)
+      	at org.picocontainer.injectors.ConstructorInjector$1.run(ConstructorInjector.java:342)
+      	at org.picocontainer.injectors.AbstractInjector$ThreadLocalCyclicDependencyGuard.observe(AbstractInjector.java:270)
+      	at org.picocontainer.injectors.ConstructorInjector.getComponentInstance(ConstructorInjector.java:364)
+      	at org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter.getComponentInstance(AbstractInjectionFactory.java:56)
+      	at org.picocontainer.behaviors.AbstractBehavior.getComponentInstance(AbstractBehavior.java:64)
+      	at org.picocontainer.behaviors.Stored.getComponentInstance(Stored.java:91)
+      	at org.picocontainer.DefaultPicoContainer.getInstance(DefaultPicoContainer.java:699)
+      	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:647)
+      	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:678)
+      	at cucumber.runtime.java.picocontainer.PicoFactory.getInstance(PicoFactory.java:40)
+      	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)
+      	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+      	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
+      	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+      	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+      	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+      	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)
+      	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+      	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+      	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+      	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+      	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+      	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+      	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+      	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+      	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+      	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)
+      	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)
+      	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+      	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+      	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+      	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+      	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+      	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+      	at cucumber.api.junit.Cucumber.run(Cucumber.java:100)
+      	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:283)
+      	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:173)
+      	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+      	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128)
+      	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+      	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+      	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+      	at ?.Given I am on the homepage(module1/HomePage_Cookies_Actions.feature:5)
+
+    And I verify the cookies notification is present                                                          # HomePage_Cookies_Actions.i_verify_the_cookies_notification_is_present()
+    When I click the /No Problem/ button on the cookies notification bar in order to dismiss the notification # HomePage_Cookies_Actions.i_click_the_No_Problem_button_on_the_cookies_notification_bar_in_order_to_dismiss_the_notification()
+    And I verify that the cookie notification bar doesnt reappear                                             # HomePage_Cookies_Actions.i_verify_that_the_cookie_notification_bar_doesnt_reappear()
+    Then I know that the appropriate cookies are set                                                          # HomePage_Cookies_Actions.i_know_that_the_appropriate_cookies_are_set()
+Feature: ClearScore savings calculator
+]]></system-out>
+    <system-err><![CDATA[java.lang.IllegalStateException: The driver executable does not exist: C:\SeleniunTest\cucumber_Workspace\fieldglass\drivers\chromedriver.exe
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:199)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:121)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:116)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:296)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:142)
+	at com.jotonia.common.utils.WebDriverManager.initDriver(WebDriverManager.java:35)
+	at com.jotonia.common.utils.WebDriverManager.getDriver(WebDriverManager.java:22)
+	at com.jotonia.step.definitions.HomePage_Cookies_Actions.<init>(HomePage_Cookies_Actions.java:18)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.picocontainer.injectors.AbstractInjector.newInstance(AbstractInjector.java:145)
+	at org.picocontainer.injectors.ConstructorInjector$1.run(ConstructorInjector.java:342)
+	at org.picocontainer.injectors.AbstractInjector$ThreadLocalCyclicDependencyGuard.observe(AbstractInjector.java:270)
+	at org.picocontainer.injectors.ConstructorInjector.getComponentInstance(ConstructorInjector.java:364)
+	at org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter.getComponentInstance(AbstractInjectionFactory.java:56)
+	at org.picocontainer.behaviors.AbstractBehavior.getComponentInstance(AbstractBehavior.java:64)
+	at org.picocontainer.behaviors.Stored.getComponentInstance(Stored.java:91)
+	at org.picocontainer.DefaultPicoContainer.getInstance(DefaultPicoContainer.java:699)
+	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:647)
+	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:678)
+	at cucumber.runtime.java.picocontainer.PicoFactory.getInstance(PicoFactory.java:40)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:100)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:283)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:173)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]></system-err>
+  </testcase>
+  <testcase name="Scenario: As a user, I want to be able to set scores and goal on the ClearScore savings calculator" classname="Scenario: As a user, I want to be able to set scores and goal on the ClearScore savings calculator" time="0.002">
+    <error type="java.lang.NullPointerException:"><![CDATA[java.lang.NullPointerException: null
+	at com.jotonia.step.definitions.HomePage_Cookies_Actions.<init>(HomePage_Cookies_Actions.java:20)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.picocontainer.injectors.AbstractInjector.newInstance(AbstractInjector.java:145)
+	at org.picocontainer.injectors.ConstructorInjector$1.run(ConstructorInjector.java:342)
+	at org.picocontainer.injectors.AbstractInjector$ThreadLocalCyclicDependencyGuard.observe(AbstractInjector.java:270)
+	at org.picocontainer.injectors.ConstructorInjector.getComponentInstance(ConstructorInjector.java:364)
+	at org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter.getComponentInstance(AbstractInjectionFactory.java:56)
+	at org.picocontainer.behaviors.AbstractBehavior.getComponentInstance(AbstractBehavior.java:64)
+	at org.picocontainer.behaviors.Stored.getComponentInstance(Stored.java:91)
+	at org.picocontainer.DefaultPicoContainer.getInstance(DefaultPicoContainer.java:699)
+	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:647)
+	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:678)
+	at cucumber.runtime.java.picocontainer.PicoFactory.getInstance(PicoFactory.java:40)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:100)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:283)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:173)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+	at ✽.Given I am on the homepage(module1/SavingsCalculator.feature:5)
+]]></error>
+  </testcase>
+  <testcase name="And I click the savings calculator tab." classname="Scenario: As a user, I want to be able to set scores and goal on the ClearScore savings calculator" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="When I see the savings calculator is displayed and I select 50 for my current score" classname="Scenario: As a user, I want to be able to set scores and goal on the ClearScore savings calculator" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I also select my score goal of 680" classname="Scenario: As a user, I want to be able to set scores and goal on the ClearScore savings calculator" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I verify that my current score interest rate, costs and cards available are: 36.5%, £849 and 22" classname="Scenario: As a user, I want to be able to set scores and goal on the ClearScore savings calculator" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I verify that my goal interest rate, costs and cards available are: 25%, £520 and 241" classname="Scenario: As a user, I want to be able to set scores and goal on the ClearScore savings calculator" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then my potential savings display should be £384" classname="Scenario: As a user, I want to be able to set scores and goal on the ClearScore savings calculator" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given a book exists with an isbn of 9781451648546" classname="Scenario: User calls web service to get a book by its ISBN" time="0"/>
+  <testcase name="When a user retrieves the book by isbn" classname="Scenario: User calls web service to get a book by its ISBN" time="0"/>
+  <testcase name="Then the status code is 200" classname="Scenario: User calls web service to get a book by its ISBN" time="0"/>
+  <testcase name="And response includes the following" classname="Scenario: User calls web service to get a book by its ISBN" time="0"/>
+  <testcase name="And response includes the following in any order" classname="Scenario: User calls web service to get a book by its ISBN" time="0"/>
+  <testcase name="Scenario: User calls web service to get a book by its ISBN" classname="Scenario: User calls web service to get a book by its ISBN" time="0"/>
+</testsuite>

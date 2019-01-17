@@ -1,0 +1,11 @@
+com\jotonia\step\definitions\api\RunnerTest.class
+com\jotonia\step\definitions\api\Book.class
+com\jotonia\step\definitions\RunnerTest.class
+com\jotonia\common\utils\GenerateData.class
+com\jotonia\common\utils\CommonUtil.class
+com\jotonia\step\definitions\HomePage_Cookies_Actions.class
+com\jotonia\page\objects\Savings_Calculator_Page.class
+com\jotonia\common\utils\WebDriverManager.class
+com\jotonia\page\objects\HomePage.class
+com\jotonia\step\definitions\SavingsCalculator_Actions.class
+com\jotonia\common\rest\assured\api\test\HelloWorldRestAssured.class
